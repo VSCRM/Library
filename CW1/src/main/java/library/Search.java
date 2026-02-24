@@ -6,7 +6,6 @@ import java.util.Vector;
 import java.awt.Desktop;
 
 public class Search extends DBOutput {
-
     private Vector<Integer> calculateColumnWidths(ResultSet rs, Vector<String> columns) throws SQLException {
         Vector<Integer> columnWidths = new Vector<>();
         for (String column : columns) {
