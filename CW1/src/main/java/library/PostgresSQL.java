@@ -8,11 +8,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class PostgresSQL {
-    
     private static HikariDataSource dataSource;
-
     private static volatile PostgresSQL instance;
-
     private static final Logger LOGGER = Logger.getLogger(PostgresSQL.class.getName());
 
     
